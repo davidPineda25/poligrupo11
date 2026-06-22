@@ -9,8 +9,7 @@ on:
 
 jobs:
   build-and-test:
-    runs-down: ubuntu-latest
-
+    runs-on: ubuntu-latest
     steps:
     # 1. Copia los archivos del repositorio en los servidores de GitHub
     - name: Checkout del código
